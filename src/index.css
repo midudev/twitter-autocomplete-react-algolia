@@ -158,6 +158,12 @@ body {
   display: flex;
   cursor: pointer;
   flex-direction: column;
+  background: transparent;
+  width: 100%;
+}
+
+.autocomplete-item:hover {
+  background: #000;
 }
 
 .autocomplete-item > :not([hidden]) ~ :not([hidden]) {
@@ -217,6 +223,7 @@ body {
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: rgba(107, 114, 128, 1);
+  text-align: left;
 }
 
 .tweet-button {
