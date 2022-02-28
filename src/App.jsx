@@ -1,12 +1,14 @@
 function App () {
   return (
-    <div className='container'>
+    <main className='container'>
 
-      <div className='box'>
+      <section className='box'>
         <div className='box-body'>
-          <div className='box-avatar'>
+
+          <aside className='box-avatar'>
             <img src='https://unavatar.io/twitter/midudev' alt='midudev' />
-          </div>
+          </aside>
+
           <div className='box-compose'>
             <form>
               <textarea
@@ -19,13 +21,15 @@ function App () {
 
           </div>
         </div>
-        <div className='box-footer'>
+
+        <footer className='box-footer'>
           <button type='submit' className='tweet-button'>
             Twittear
           </button>
-        </div>
-      </div>
-    </div>
+        </footer>
+
+      </section>
+    </main>
   )
 }
 
