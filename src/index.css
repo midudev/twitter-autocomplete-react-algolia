@@ -33,7 +33,7 @@ textarea {
 body {
   height: 100vh;
   width: 100vw;
-  background-color: rgba(75, 85, 99, 1);
+  background-color: #444a54;
   padding: 1.5rem;
 }
 
@@ -56,6 +56,7 @@ body {
   height: 9rem;
   width: 100%;
   resize: none;
+  font-size: 1.2rem;
   background-color: transparent;
 }
 
@@ -198,8 +199,8 @@ body {
 
 .account-avatar,
 .box-avatar {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 48px;
+  width: 48px;
   flex: none;
   border-radius: 9999px;
   background-color: rgba(255, 255, 255, 1);
@@ -210,7 +211,6 @@ body {
 .box-avatar img {
   width: 100%;
   height: auto;
-  transform: scale(1.2) translateY(-0.2rem);
 }
 
 .account-handle {
